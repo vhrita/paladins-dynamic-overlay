@@ -1,0 +1,8 @@
+  10/12/2020 02:50:16: iniciando composição “Background”.
+
+  Saída para: E:\Projeto Overlay\Maeve\GIF SEQ\Maeve_[#####].png    10/12/2020 02:50:19: composição concluída “Background”.
+
+
+  Tempo total decorrido: 3 segundos
+Log fechado em 10/12/2020 às 02:50:19
+

@@ -1,0 +1,8 @@
+  10/12/2020 20:28:57: iniciando composição “Background”.
+
+  Saída para: E:\Projeto Overlay\Evie\png_alpha\Evie_[#####].png    10/12/2020 20:29:02: composição concluída “Background”.
+
+
+  Tempo total decorrido: 5 segundos
+Log fechado em 10/12/2020 às 20:29:02
+

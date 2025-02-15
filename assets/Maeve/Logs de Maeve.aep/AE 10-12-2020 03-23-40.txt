@@ -1,0 +1,8 @@
+  10/12/2020 03:23:40: iniciando composição “Background”.
+
+  Saída para: E:\Projeto Overlay\Maeve\Maeve.mov    10/12/2020 03:23:42: composição concluída “Background”.
+
+
+  Tempo total decorrido: 2 segundos
+Log fechado em 10/12/2020 às 03:23:42
+

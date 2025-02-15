@@ -4,7 +4,7 @@ const apiKey = 'YOUR_PALADINS_API_KEY'; // PLACEHOLDER. You need to put your Pal
 var nickname = '2901953'; // The player's PaladinsAPI ID (not the in-game name) - 2901953 = my ID - You need to put yours, or the ID of the player you want to track
 
 var sessionID = getCookie("sessionID");
-if(sessionID == "") { sessionID = "09944FD30A9044BC9EF782259C4E4D9D" }
+if(sessionID == "") { sessionID = "ANY_SESSION_ID" }
 
 $(document).ready(function(){
     let signature = generateSignature('testsession');
