@@ -1,5 +1,7 @@
 # Paladins Dynamic Overlay
 
+<img src="https://media.licdn.com/dms/image/v2/D4D22AQHetoIoa4bvmg/feedshare-shrink_800/B4DZUFgJLlG8Ag-/0/1739554069931?e=1742428800&v=beta&t=id3d6sw3Kzcg-WeWRWFDYYwnZ9GMg1d8j0NQQ59JbnI" width="300">
+
 ## 🌍 Available Languages
 - 🇬🇧 [English](README.md)
 - 🇧🇷 [Português](README.pt-br.md)
@@ -61,11 +63,6 @@ Após rodar o servidor local, os arquivos podem ser acessados nos seguintes endp
 | **Overlay Principal** | [127.0.0.1/index.html](http://127.0.0.1/index.html) | Interface principal do overlay com informações da partida e do jogador. |
 | **Música Atual** | [127.0.0.1/current_playing.html](http://127.0.0.1/current_playing.html) | Mostra a música atualmente tocando no Spotify. |
 | **Tela de Volto Logo** | [127.0.0.1/coming_soon.html](http://127.0.0.1/coming_soon.html) | Tela que os streamers de Paladins podem utilizar quando saem da frente do computador. |
-
----
-
-## 🎥 GIF DO PROJETO FUNCIONANDO
-![Overlay em ação](overlay_gif.gif)
 
 ---
 
