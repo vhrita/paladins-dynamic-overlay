@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        <link href="css/current_playing.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./js/cookies.js"></script>
+    </head>
+    <body>
+        <div class="music-card">
+            <img id="play-pause" src="" alt="">
+            <img id="image" src="" alt="">
+            <div class="texts">
+                <p id="track-artist"></p>
+                <p id="track-name"></p>
+                <input id="track-range" type="range" min="0" max="100" value="0">
+                <div class='numbers'>
+                    <div id="progress">00:00</div>
+                    <div id="duration">00:00</div>
+                </div>
+            </div>
+        </div>
+        <script src="./js/spotify.js"></script>
+        <!-- <script src="./js/spotify_bot.js"></script> -->
+    </body>
+</html>
