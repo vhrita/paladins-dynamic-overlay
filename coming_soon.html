@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: 'Bebas Neue', cursive;
+                color: #000000;
+            }
+            html, body, #main {
+                width: 1920px;
+                height: 1080px;
+                background-color: #000000;
+            }
+            #bgImg {
+                background-image: url('./soon.png');
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                opacity: 0.6;
+            }
+            .text {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                text-align: center;
+                justify-content: center;
+            }
+            .text > pre {
+                color: #ffffff;
+                position: absolute;
+                z-index: 2;
+                opacity: 1;
+                font-size: 250px;
+                line-height: 230px;
+            }
+            img {
+                position: relative;
+                opacity: 1;
+                z-index: 2;
+                height: 400px;
+                width: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <!-- <div id="bgImg"></div> -->
+            <img src="maeve_rave.gif" alt="" srcset="">
+            <div class="text">
+                <pre>
+                    Voltamos
+                    Logo
+                </pre>
+            </div>
+        </div>
+    </body>
+</html>
