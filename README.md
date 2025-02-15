@@ -1,5 +1,7 @@
 # Paladins Dynamic Overlay
 
+<img src="https://media.licdn.com/dms/image/v2/D4D22AQHetoIoa4bvmg/feedshare-shrink_800/B4DZUFgJLlG8Ag-/0/1739554069931?e=1742428800&v=beta&t=id3d6sw3Kzcg-WeWRWFDYYwnZ9GMg1d8j0NQQ59JbnI" width="300">
+
 ## 🌍 Available Languages
 - 🇬🇧 [English](README.md)
 - 🇧🇷 [Português](README.pt-br.md)
@@ -61,11 +63,6 @@ Once the local server is running, the files can be accessed at the following end
 | **Main Overlay** | [127.0.0.1/index.html](http://127.0.0.1/index.html) | Main overlay interface displaying player and match information. |
 | **Currently Playing Music** | [127.0.0.1/current_playing.html](http://127.0.0.1/current_playing.html) | Displays the currently playing song from Spotify. |
 | **Be Right Back Screen** | [127.0.0.1/coming_soon.html](http://127.0.0.1/coming_soon.html) | A screen for Paladins streamers to use when they step away from the computer. |
-
----
-
-## 🎥 PROJECT GIF
-![Overlay in action](overlay_gif.gif)
 
 ---
 
