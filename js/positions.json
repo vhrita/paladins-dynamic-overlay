@@ -1,0 +1,14 @@
+{
+    "elements" : [
+        {
+            "id" : "cam-overlay",
+            "xPos" : 0,
+            "yPos" : 100
+        },
+        {
+            "id" : "last-infos",
+            "xPos" : 2.997159004211426,
+            "yPos" : 100
+        }
+    ]
+}
