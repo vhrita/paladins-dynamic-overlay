@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para resizable box */
+.resize-box {
+  position: relative;
+  border: 3px solid rgba(255, 255, 255, 0.5); /* Destaque na borda para visualização */
+  border-radius: 8px;
+}
+
+/* Ajusta o visual do handle para facilitar o resize */
+.react-resizable-handle {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background-color: rgb(4, 255, 0);
+  border: 2px solid #171717;
+  bottom: 0;
+  right: 0;
+  cursor: se-resize;
+  border-radius: 4px;
+}
