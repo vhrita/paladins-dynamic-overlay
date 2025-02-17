@@ -1,0 +1,142 @@
+import { CharacterTheme } from "./types";
+
+export const characterThemes: Record<string, CharacterTheme> = {
+	androxus: {
+		name: "Androxus",
+		primaryColor: "#13131c",
+		secondaryColor: "#00fd00",
+		image: { name: "androxus.png", x: -35, y: 0, left: true },
+	},
+	ash: {
+		name: "Ash",
+		primaryColor: "#13131c",
+		secondaryColor: "#7D0000",
+		image: { name: "ash.png", x: -80, y: 0, left: true, mirror: true },
+	},
+	atlas: {
+		name: "Atlas",
+		primaryColor: "#2E2E2E",
+		secondaryColor: "#FFB300",
+		image: { name: "atlas.png", x: -50, y: 0, customHeight: 140 },
+	},
+	barik: {
+		name: "Barik",
+		primaryColor: "#13131c",
+		secondaryColor: "#B62A00",
+		image: { name: "barik.png", x: 0, y: 0 },
+	},
+	bombking: {
+		name: "Bomb King",
+		primaryColor: "#000099",
+		secondaryColor: "#DABD00",
+		image: { name: "bombking.png", x: 0, y: 0 },
+	},
+	viktor: {
+		name: "Viktor",
+		primaryColor: "#282828",
+		secondaryColor: "#00FFFF",
+		image: { name: "viktor.png", x: 0, y: 0 },
+	},
+	maeve: {
+		name: "Maeve",
+		primaryColor: "#5b00fd",
+		secondaryColor: "#ff00ff",
+		image: { name: "maeve.png", x: -30, y: 70, mirror: true, customHeight: 200 },
+	},
+	zhin: {
+		name: "Zhin",
+		primaryColor: "#181818",
+		secondaryColor: "#287233",
+		image: { name: "zhin.png", x: 0, y: 0 },
+	},
+	dredge: {
+		name: "Dredge",
+		primaryColor: "#0E4474",
+		secondaryColor: "#D4AF37",
+		image: { name: "dredge.png", x: 0, y: 0 },
+	},
+	evie: {
+		name: "Evie",
+		primaryColor: "#0074E4",
+		secondaryColor: "#A3C1DA",
+		image: { name: "evie.png", x: 0, y: 0 },
+	},
+	fernando: {
+		name: "Fernando",
+		primaryColor: "#C41E3A",
+		secondaryColor: "#FFD700",
+		image: { name: "fernando.png", x: 0, y: 0 },
+	},
+	grohk: {
+		name: "Grohk",
+		primaryColor: "#008080",
+		secondaryColor: "#FFD700",
+		image: { name: "grohk.png", x: 0, y: 0 },
+	},
+	grover: {
+		name: "Grover",
+		primaryColor: "#228B22",
+		secondaryColor: "#8B4513",
+		image: { name: "grover.png", x: 0, y: 0 },
+	},
+	inara: {
+		name: "Inara",
+		primaryColor: "#A0522D",
+		secondaryColor: "#FFD700",
+		image: { name: "inara.png", x: 0, y: 0 },
+	},
+	koga: {
+		name: "Koga",
+		primaryColor: "#000000",
+		secondaryColor: "#808080",
+		image: { name: "koga.png", x: 0, y: 0 },
+	},
+	lex: {
+		name: "Lex",
+		primaryColor: "#000080",
+		secondaryColor: "#ADD8E6",
+		image: { name: "lex.png", x: 0, y: 0 },
+	},
+	lian: {
+		name: "Lian",
+		primaryColor: "#FFD700",
+		secondaryColor: "#8B0000",
+		image: { name: "lian.png", x: 0, y: 0 },
+	},
+	moji: {
+		name: "Moji",
+		primaryColor: "#FF69B4",
+		secondaryColor: "#9370DB",
+		image: { name: "moji.png", x: 0, y: 0 },
+	},
+	seris: {
+		name: "Seris",
+		primaryColor: "#800080",
+		secondaryColor: "#4B0082",
+		image: { name: "seris.png", x: 0, y: 0 },
+	},
+	strix: {
+		name: "Strix",
+		primaryColor: "#556B2F",
+		secondaryColor: "#8B4513",
+		image: { name: "strix.png", x: 0, y: 0 },
+	},
+	talus: {
+		name: "Talus",
+		primaryColor: "#FF4500",
+		secondaryColor: "#FFD700",
+		image: { name: "talus.png", x: 0, y: 0 },
+	},
+	terminus: {
+		name: "Terminus",
+		primaryColor: "#708090",
+		secondaryColor: "#2F4F4F",
+		image: { name: "terminus.png", x: 0, y: 0 },
+	},
+	ying: {
+		name: "Ying",
+		primaryColor: "#800080",
+		secondaryColor: "#D8BFD8",
+		image: { name: "ying.png", x: 0, y: 0 },
+	},
+};
