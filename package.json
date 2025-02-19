@@ -1,7 +1,15 @@
 {
   "name": "paladins-dynamic-overlay",
+  "author": {
+    "name": "Vitor Rita",
+    "email": "vhrita.dev@gmail.com",
+    "github": "https://github.com/vhrita/"
+  },
+  "description": "🎮 Dynamic Overlay for Paladins streamers – originally created in 2018, now being refactored with modern technologies. 🚀",
+  "license": "CC BY-NC 4.0",
+  "repository": "https://github.com/vhrita/paladins-dynamic-overlay/",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
