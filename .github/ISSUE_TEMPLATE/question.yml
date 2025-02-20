@@ -1,0 +1,35 @@
+name: 💬 Question / Discussion
+description: Ask a question or start a discussion about the project.
+title: "[Question] "
+labels: [question]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ❓ Question
+        Ask your question clearly and concisely.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      placeholder: What do you want to know?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      placeholder: Why is this question relevant to the project?
+    validations:
+      required: false
+
+  - type: textarea
+    id: related_links
+    attributes:
+      label: Related Links (if any)
+      placeholder: Add any useful links or references.
+    validations:
+      required: false
