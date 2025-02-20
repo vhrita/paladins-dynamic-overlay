@@ -7,15 +7,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 🐞 Description
+        ## 🐞 Description  
         Please provide a clear and concise description of the bug.
 
   - type: textarea
     id: description
     attributes:
       label: Bug Description
-      placeholder: Describe the bug in detail.
       description: What happened? What did you expect to happen?
+      placeholder: "Describe the bug in detail."
     validations:
       required: true
 
@@ -23,11 +23,11 @@ body:
     id: steps_to_reproduce
     attributes:
       label: Steps to Reproduce
+      description: "List the steps to reproduce the bug."
       placeholder: |
-        1. Go to '...'
-        2. Click on '...'
+        1. Go to "..."
+        2. Click on "..."
         3. See the error
-      description: List the steps to reproduce the bug.
     validations:
       required: true
 
@@ -35,7 +35,8 @@ body:
     id: expected_behavior
     attributes:
       label: Expected Behavior
-      placeholder: Describe what you expected to happen.
+      description: "Describe what you expected to happen."
+      placeholder: "What was the expected outcome?"
     validations:
       required: true
 
@@ -43,8 +44,8 @@ body:
     id: environment
     attributes:
       label: Environment
-      placeholder: OS, browser, project version
-      description: Example: macOS, Chrome 120, master branch
+      description: "Example: macOS, Chrome 120, master branch"
+      placeholder: "OS, browser, project version"
     validations:
       required: true
 
@@ -52,7 +53,8 @@ body:
     id: screenshots
     attributes:
       label: Screenshots
-      placeholder: Paste screenshots here (if applicable).
+      description: "Paste screenshots here (if applicable)."
+      placeholder: "Drag and drop images or paste links."
     validations:
       required: false
 
@@ -60,6 +62,7 @@ body:
     id: additional_context
     attributes:
       label: Additional Context
-      placeholder: Add any other information here.
+      description: "Add any other information that may help."
+      placeholder: "Any other relevant context."
     validations:
       required: false
