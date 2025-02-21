@@ -27,15 +27,28 @@ body {
   border-radius: 8px;
 }
 
-/* Ajusta o visual do handle para facilitar o resize */
 .react-resizable-handle {
   position: absolute;
   width: 32px;
   height: 32px;
-  background-color: rgb(4, 255, 0);
-  border: 2px solid #171717;
-  bottom: 0;
-  right: 0;
+  bottom: 4px;
+  right: 4px;
   cursor: se-resize;
-  border-radius: 4px;
+
+  /* Visual minimalista e moderno */
+  border-right: 5px solid rgba(0, 221, 255, 1);
+  border-bottom: 5px solid rgba(0, 221, 255, 1);
+  background-color: transparent;
+
+  /* Bordas arredondadas para suavizar a aparência */
+  border-radius: 2px;
+
+  /* Transição suave ao passar o mouse */
+  transition: border-color 0.2s ease;
 }
+
+.react-resizable-handle:hover {
+  border-right-color: rgba(0, 221, 255, 0.6);
+  border-bottom-color: rgba(0, 221, 255, 0.6);
+}
+

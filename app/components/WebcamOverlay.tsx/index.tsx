@@ -2,14 +2,13 @@ import React, { useState } from 'react';
 import { ResizableBox } from 'react-resizable';
 import Image from 'next/image';
 import { useCharacterTheme } from '@/context/CharacterTheme/hooks';
+import { WebcamOverlayProps } from './types';
 
-const WebcamOverlay: React.FC = () => {
+const WebcamOverlay: React.FC<WebcamOverlayProps> = ({ mode = 'view' }) => {
   const { theme } = useCharacterTheme();
 
-  // Estado para armazenar o tamanho dinâmico do overlayw
   const [boxSize, setBoxSize] = useState({ width: 500, height: 300 });
 
-  // Definição do fator de escala baseado no tamanho da box
   const baseHeight = 300;
   const baseCharacterHeight = theme.image.customHeight || 180;
   const scaleFactor = boxSize.height / baseHeight;
@@ -45,9 +44,10 @@ const WebcamOverlay: React.FC = () => {
         className="relative border-4 p-2 bg-white"
         style={{ borderColor: theme.primaryColor }}
         onResize={(_e, data) => setBoxSize({ width: data.size.width, height: data.size.height })}
+        resizeHandles={mode === 'edit' ? ['se'] : []}
       >
         <div className="relative w-full h-full flex items-center justify-center" style={{ borderColor: theme.primaryColor }}>
-          <span className="text-white">Webcam Overlay</span>
+          <span className="text-black">Webcam Overlay</span>
         </div>
       </ResizableBox>
     </div>

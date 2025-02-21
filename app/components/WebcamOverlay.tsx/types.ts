@@ -6,4 +6,5 @@ export interface WebcamOverlayProps {
   characterImage?: string;
   characterOffsetX?: number;
   characterOffsetY?: number;
+  mode?: 'edit' | 'view';
 }
